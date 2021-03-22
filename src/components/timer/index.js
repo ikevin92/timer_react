@@ -38,9 +38,9 @@ const index = () => {
 
     };
 
-    const cuentaRegresiva = () => {
-        setSegundos( s => ( s > 0 ) ? s - 1 : 0 );
-    };
+    // const cuentaRegresiva = () => {
+    //     setSegundos( s => ( s > 0 ) ? s - 1 : 0 );
+    // };
 
     useEffect( () => {
         // const tiempo = setInterval( timeLeft, 1000 );
